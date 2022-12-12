@@ -1,0 +1,52 @@
+{
+  "single": [
+    {
+      "modelo": "Meu mundo particular",
+      "tamanho": "12 palitos",
+      "cor palito": "azul",
+      "cor letras": "branco",
+      "valor": 36,
+      "id": 1
+    },
+    {
+      "modelo": "Lugar de gente feliz",
+      "tamanho": "14 palitos",
+      "cor palito": "amarelo",
+      "cor letras": "preto, sombra branca",
+      "valor": 42,
+      "id": 2
+    },
+    {
+      "modelo": "Sorrir é o melhor remédio",
+      "tamanho": "16 palitos",
+      "cor palito": "laranja",
+      "cor letras": "branco",
+      "valor": 48,
+      "id": 3
+    },
+    {
+      "modelo": "Lugar de gente feliz",
+      "tamanho": "14 palitos",
+      "cor palito": "magenta, rosa e branco",
+      "cor letras": "branco",
+      "valor": 42,
+      "id": 5
+    }
+  ],
+  "duo": [
+    {
+      "modelo": "Renove as energias / Mantenha as esperanças",
+      "tamanho": "14 palitos",
+      "valor": 78,
+      "id": 1
+    }
+  ],
+  "trio": [
+    {
+      "modelo": "Inspira / Expira / Não pira",
+      "tamanho": "16 palitos",
+      "valor": 124,
+      "id": 1
+    }
+  ]
+}

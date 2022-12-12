@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "396eb790-209d-4e68-8024-0b196456400c",
+		"name": "Entrega",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24685249"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"modelo\": \"Lugar de gente feliz\",\r\n      \"tamanho\": \"14 palitos\",\r\n      \"cor palito\": \"magenta, rosa e branco\",\r\n      \"cor letras\": \"branco\",\r\n      \"valor\": 42\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/single",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"single"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"modelo\": \"Lugar de gente feliz\",\r\n      \"tamanho\": \"14 palitos\",\r\n      \"cor palito\": \"magenda, rosa e branco\",\r\n      \"cor letras\": \"branco\",\r\n      \"valor\": 42\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/single",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"single"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/single/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"single",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"modelo\": \"Lugar de gente feliz\",\r\n      \"tamanho\": \"14 palitos\",\r\n      \"cor palito\": \"magenta, rosa e branco\",\r\n      \"cor letras\": \"branco\",\r\n      \"valor\": 42\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/single/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"single",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
